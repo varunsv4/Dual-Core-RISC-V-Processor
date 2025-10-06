@@ -1,0 +1,13 @@
+org 0x00
+li $5, 55
+lw $6, 0x400($0)
+sw $5, 0x400($0)
+lw $7, 0x400($0)
+sw $7, 0x500($0)
+halt
+
+org 0x200
+halt
+
+org 0x400 
+cfw 0xDEADBEEF
