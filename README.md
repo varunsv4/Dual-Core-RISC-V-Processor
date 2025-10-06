@@ -30,4 +30,6 @@ Repository Contents:
 - /include: Header files
 
 - /scripts: Waveform config files
+  
+- report.pdf: Report containing design documentation
 
